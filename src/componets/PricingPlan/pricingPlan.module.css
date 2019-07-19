@@ -1,0 +1,88 @@
+.Bronze {
+  color: #dd7c4b;
+}
+
+.Silver {
+  color: #c0c0c0;
+}
+
+.Gold {
+  color: #dda431;
+}
+
+.Bronze,
+.Silver,
+.Gold {
+  font-size: 35px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.pricingPlan {
+  margin: 20px auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 1416px;
+}
+
+.item {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #ffffff;
+  width: 450px;
+  height: 700px;
+  text-align: center;
+  padding: 84px 70px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: sans-serif;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.buttonBronze {
+  background-color: #dd7c4b;
+}
+
+.buttonSilver {
+  background-color: #c0c0c0;
+}
+
+.buttonGold {
+  background-color: #dda431;
+}
+
+.price {
+  font-size: 40px;
+  color: rgb(127, 140, 141);
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.description {
+  font-size: 15px;
+  color: rgb(186, 186, 186);
+  font-family: sans-serif;
+}
+
+.capacity {
+  font-size: 17px;
+  color: rgb(180, 180, 180);
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
